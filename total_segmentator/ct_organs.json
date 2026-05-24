@@ -1,0 +1,61 @@
+{
+  "modality": "CT",
+  "target_spacing": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "patch_size": [
+    128,
+    128,
+    128
+  ],
+  "num_classes": 25,
+  "transpose_forward": [
+    0,
+    1,
+    2
+  ],
+  "transpose_backward": [
+    0,
+    1,
+    2
+  ],
+  "axis_order": "ZYX (matches nnU-Net NibabelIOWithReorient)",
+  "normalization": {
+    "scheme": "CTNormalization",
+    "clip_low": -1024.0,
+    "clip_high": 276.0,
+    "mean": -370.00039267657144,
+    "std": 436.5998675471528
+  },
+  "dataset_id": "Dataset291_TotalSegmentator_part1_organs_1559subj",
+  "labels": {
+    "background": 0,
+    "spleen": 1,
+    "kidney_right": 2,
+    "kidney_left": 3,
+    "gallbladder": 4,
+    "liver": 5,
+    "stomach": 6,
+    "pancreas": 7,
+    "adrenal_gland_right": 8,
+    "adrenal_gland_left": 9,
+    "lung_upper_lobe_left": 10,
+    "lung_lower_lobe_left": 11,
+    "lung_upper_lobe_right": 12,
+    "lung_middle_lobe_right": 13,
+    "lung_lower_lobe_right": 14,
+    "esophagus": 15,
+    "trachea": 16,
+    "thyroid_gland": 17,
+    "small_bowel": 18,
+    "duodenum": 19,
+    "colon": 20,
+    "urinary_bladder": 21,
+    "prostate": 22,
+    "kidney_cyst_left": 23,
+    "kidney_cyst_right": 24
+  },
+  "source": "https://github.com/wasserth/TotalSegmentator"
+}

@@ -1,0 +1,62 @@
+{
+  "modality": "MRI",
+  "target_spacing": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "patch_size": [
+    112,
+    128,
+    160
+  ],
+  "num_classes": 30,
+  "transpose_forward": [
+    0,
+    1,
+    2
+  ],
+  "transpose_backward": [
+    0,
+    1,
+    2
+  ],
+  "axis_order": "ZYX (matches nnU-Net NibabelIOWithReorient)",
+  "normalization": {
+    "scheme": "ZScoreNormalization"
+  },
+  "dataset_id": "Dataset850_TotalSegMRI_part1_organs_1088subj",
+  "labels": {
+    "background": 0,
+    "spleen": 1,
+    "kidney_right": 2,
+    "kidney_left": 3,
+    "gallbladder": 4,
+    "liver": 5,
+    "stomach": 6,
+    "pancreas": 7,
+    "adrenal_gland_right": 8,
+    "adrenal_gland_left": 9,
+    "lung_left": 10,
+    "lung_right": 11,
+    "esophagus": 12,
+    "small_bowel": 13,
+    "duodenum": 14,
+    "colon": 15,
+    "urinary_bladder": 16,
+    "prostate": 17,
+    "sacrum": 18,
+    "vertebrae": 19,
+    "intervertebral_discs": 20,
+    "spinal_cord": 21,
+    "heart": 22,
+    "aorta": 23,
+    "inferior_vena_cava": 24,
+    "portal_vein_and_splenic_vein": 25,
+    "iliac_artery_left": 26,
+    "iliac_artery_right": 27,
+    "iliac_vena_left": 28,
+    "iliac_vena_right": 29
+  },
+  "source": "https://github.com/wasserth/TotalSegmentator"
+}

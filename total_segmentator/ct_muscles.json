@@ -1,0 +1,60 @@
+{
+  "modality": "CT",
+  "target_spacing": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "patch_size": [
+    128,
+    128,
+    128
+  ],
+  "num_classes": 24,
+  "transpose_forward": [
+    0,
+    1,
+    2
+  ],
+  "transpose_backward": [
+    0,
+    1,
+    2
+  ],
+  "axis_order": "ZYX (matches nnU-Net NibabelIOWithReorient)",
+  "normalization": {
+    "scheme": "CTNormalization",
+    "clip_low": -197.0,
+    "clip_high": 1729.0,
+    "mean": 174.82106003593222,
+    "std": 362.496044938386
+  },
+  "dataset_id": "Dataset294_TotalSegmentator_part4_muscles_1559subj",
+  "labels": {
+    "background": 0,
+    "humerus_left": 1,
+    "humerus_right": 2,
+    "scapula_left": 3,
+    "scapula_right": 4,
+    "clavicula_left": 5,
+    "clavicula_right": 6,
+    "femur_left": 7,
+    "femur_right": 8,
+    "hip_left": 9,
+    "hip_right": 10,
+    "spinal_cord": 11,
+    "gluteus_maximus_left": 12,
+    "gluteus_maximus_right": 13,
+    "gluteus_medius_left": 14,
+    "gluteus_medius_right": 15,
+    "gluteus_minimus_left": 16,
+    "gluteus_minimus_right": 17,
+    "autochthon_left": 18,
+    "autochthon_right": 19,
+    "iliopsoas_left": 20,
+    "iliopsoas_right": 21,
+    "brain": 22,
+    "skull": 23
+  },
+  "source": "https://github.com/wasserth/TotalSegmentator"
+}

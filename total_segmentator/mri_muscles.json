@@ -1,0 +1,54 @@
+{
+  "modality": "MRI",
+  "target_spacing": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "patch_size": [
+    112,
+    128,
+    160
+  ],
+  "num_classes": 22,
+  "transpose_forward": [
+    0,
+    1,
+    2
+  ],
+  "transpose_backward": [
+    0,
+    1,
+    2
+  ],
+  "axis_order": "ZYX (matches nnU-Net NibabelIOWithReorient)",
+  "normalization": {
+    "scheme": "ZScoreNormalization"
+  },
+  "dataset_id": "Dataset851_TotalSegMRI_part2_muscles_1088subj",
+  "labels": {
+    "background": 0,
+    "humerus_left": 1,
+    "humerus_right": 2,
+    "scapula_left": 3,
+    "scapula_right": 4,
+    "clavicula_left": 5,
+    "clavicula_right": 6,
+    "femur_left": 7,
+    "femur_right": 8,
+    "hip_left": 9,
+    "hip_right": 10,
+    "gluteus_maximus_left": 11,
+    "gluteus_maximus_right": 12,
+    "gluteus_medius_left": 13,
+    "gluteus_medius_right": 14,
+    "gluteus_minimus_left": 15,
+    "gluteus_minimus_right": 16,
+    "autochthon_left": 17,
+    "autochthon_right": 18,
+    "iliopsoas_left": 19,
+    "iliopsoas_right": 20,
+    "brain": 21
+  },
+  "source": "https://github.com/wasserth/TotalSegmentator"
+}

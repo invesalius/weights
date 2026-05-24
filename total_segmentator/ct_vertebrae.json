@@ -1,0 +1,63 @@
+{
+  "modality": "CT",
+  "target_spacing": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "patch_size": [
+    128,
+    128,
+    128
+  ],
+  "num_classes": 27,
+  "transpose_forward": [
+    0,
+    1,
+    2
+  ],
+  "transpose_backward": [
+    0,
+    1,
+    2
+  ],
+  "axis_order": "ZYX (matches nnU-Net NibabelIOWithReorient)",
+  "normalization": {
+    "scheme": "CTNormalization",
+    "clip_low": -96.0,
+    "clip_high": 1514.0,
+    "mean": 367.32929817099546,
+    "std": 320.8587389393513
+  },
+  "dataset_id": "Dataset292_TotalSegmentator_part2_vertebrae_1532subj",
+  "labels": {
+    "background": 0,
+    "sacrum": 1,
+    "vertebrae_S1": 2,
+    "vertebrae_L5": 3,
+    "vertebrae_L4": 4,
+    "vertebrae_L3": 5,
+    "vertebrae_L2": 6,
+    "vertebrae_L1": 7,
+    "vertebrae_T12": 8,
+    "vertebrae_T11": 9,
+    "vertebrae_T10": 10,
+    "vertebrae_T9": 11,
+    "vertebrae_T8": 12,
+    "vertebrae_T7": 13,
+    "vertebrae_T6": 14,
+    "vertebrae_T5": 15,
+    "vertebrae_T4": 16,
+    "vertebrae_T3": 17,
+    "vertebrae_T2": 18,
+    "vertebrae_T1": 19,
+    "vertebrae_C7": 20,
+    "vertebrae_C6": 21,
+    "vertebrae_C5": 22,
+    "vertebrae_C4": 23,
+    "vertebrae_C3": 24,
+    "vertebrae_C2": 25,
+    "vertebrae_C1": 26
+  },
+  "source": "https://github.com/wasserth/TotalSegmentator"
+}
